@@ -1,0 +1,15 @@
+.SideMenu {
+    height: 95.8%;
+    width: 315px;
+    background-color: #F0F0F3;
+    border-right: 1px solid #D2DBE7;
+    padding: 40px 32px 0px 32px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.SideMenu__title {
+    width: 230px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #D2DBE7;
+}
