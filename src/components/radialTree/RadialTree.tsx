@@ -41,16 +41,20 @@ const RadialTree = () => {
     const deltaX = event.clientX - startPosition.current.x;
     const deltaY = event.clientY - startPosition.current.y;
 
-    setPositionX(positionX + deltaX / scaleFactor);
-    setPositionY(positionY + deltaY / scaleFactor);
+    setPositionX(positionX + deltaX );
+    setPositionY(positionY + deltaY  );
 
     startPosition.current.x = event.clientX;
     startPosition.current.y = event.clientY;
   };
 
   return (
-    <div style={{  transform: `translate(${positionX}px, ${positionY}px) scale(${scaleFactor})`, transformOrigin: 'top left' }} className="container">
-      <div className="RadialTree"  ref={containerRef} onMouseDown={onMouseDown} onMouseUp={onMouseUp} onMouseMove={onMouseMove}></div>
+    <div style={{  transform: `translate(${positionX}px, ${positionY}px) scale(${scaleFactor})`, transformOrigin: 'top left' }} 
+    className="container">
+      <div ref={containerRef} onMouseDown={onMouseDown} onMouseUp={onMouseUp} onMouseMove={onMouseMove}>
+
+     
+      <div className="RadialTree"  ></div>
       <div className="cell1 l"></div>
       <div className="cell1 r"></div>
 
@@ -69,6 +73,7 @@ const RadialTree = () => {
       </div>
       <div className="cell3 br3">
       </div>
+       </div>
     </div>
   );
 };
