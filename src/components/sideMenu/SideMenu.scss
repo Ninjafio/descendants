@@ -1,13 +1,15 @@
 .SideMenu {
-    height: 95.8%;
+    height: 100%;
     width: 315px;
     background-color: #F0F0F3;
     border-right: 1px solid #D2DBE7;
-    padding: 40px 32px 0px 32px;
+    padding: 0px 32px 0px 32px;
     position: absolute;
-    z-index: 1000;
+    z-index: 1000;  
 }
-
+.SideMenu__title--paddding{
+    margin-top: 32px;
+}
 .SideMenu__title {
     width: 230px;
     padding-bottom: 12px;
@@ -21,6 +23,13 @@
     margin-top: 12px;
     padding-bottom: 24px;
     border-bottom: 1px solid #D2DBE7;
+}
+
+.naviBut__link{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+
 }
 
 .naviBut{
