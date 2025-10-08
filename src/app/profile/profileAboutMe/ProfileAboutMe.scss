@@ -2,7 +2,7 @@
     margin-left: 432px;
     display: flex;
     flex-direction: column;
-    width: 1389px;
+    width: 1420px;
 
     .conteiner__title {
         font-family: 'Geist';
@@ -11,6 +11,7 @@
         line-height: 29px;
         color: #19202A;
         margin-top: 32px;
+        
     }
 
     .conteiner__title--profile {
@@ -21,7 +22,7 @@
     }
 
     .conteiner__line {
-        width: 1380px;
+        width: 1420px;
         height: 1px;
         background: #D2DBE7;
         margin-top: 32px;
@@ -40,6 +41,7 @@
             font-weight: 500;
             text-align: center;
             cursor: pointer;
+            text-decoration: none;
         }
 
         .conteiner__item--active {
@@ -111,7 +113,7 @@
                 border-radius: 10px;
                 border: none;
                 font-size: 16px;
-
+                cursor: pointer;
             }
 
             .data__button--left {
@@ -127,7 +129,7 @@
         }
     }
     .conteiner__notes{
-        width: 1389px;
+        width: 1420px;
         display: flex;
         flex-direction: row;
         .notes__block{

@@ -1,0 +1,74 @@
+.conteiner {
+    margin-left: 432px;
+    display: flex;
+    flex-direction: column;
+    width: 1420px;
+
+    .conteiner__title{
+        font-family: 'Geist';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #19202A;
+        margin-top: 32px;
+        
+    }
+   
+    .conteiner__title--profile {
+        font-weight: 700;
+        padding-top: 42px;
+        margin-top: 0px;
+        font-size: 28px;
+    }
+
+    .conteiner__line {
+        width: 1420px;
+        height: 1px;
+        background: #D2DBE7;
+        margin-top: 32px;
+    }
+
+    .conteiner__list {
+        display: flex;
+        flex-direction: row;
+        margin: 32px 0 12px 0;
+
+        .conteiner__item {
+            width: 200px;
+            height: 40px;
+            font-size: 16px;
+            color: #19202A;
+            font-weight: 500;
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .conteiner__item--active {
+            font-weight: 600;
+            border-bottom: 2px solid #19202A;
+            // margin-left: -32px;
+        }
+
+
+    }
+    .conteiner__eby{
+        display: flex;
+        flex-direction: row;
+        
+         .eby__button{
+            font-size: 16px;
+        background-color: #30A46C;
+        width: 168px;
+        height: 40px;
+        cursor: pointer;
+        color: #FFFFFF;
+        border-radius: 6px;
+        border: none;
+        margin-top: 32px;
+        margin-left: auto;
+    }
+    }
+   
+    
+}

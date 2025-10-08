@@ -9,10 +9,10 @@ const ProfileAboutMe = () => {
         <h1 className='conteiner__title conteiner__title--profile'>Мой профиль</h1>
         <div className='conteiner__line'></div>
         <div className="conteiner__list">
-          <div className="conteiner__item conteiner__item--active">Основное</div>
-          <div className="conteiner__item">События</div>
-          <div className="conteiner__item">Фото</div>
-          <div className="conteiner__item">Документы</div>
+          <a href='/' className="conteiner__item conteiner__item--active">Основное</a>
+          <a href='/profile/profileEvent'className="conteiner__item">События</a>
+          <a href='/profile/profilePhoto'className="conteiner__item">Фото</a>
+          <a href='/profile/profileDocuments'className="conteiner__item">Документы</a>
         </div>
         <div className='conteiner__line'></div>
         <h2 className="conteiner__title">Общая информация</h2>
