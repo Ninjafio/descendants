@@ -102,33 +102,63 @@
   margin-top: -62px;
   margin-left: -62px;
   border-bottom: none;
+  border-right: none;
   position: absolute;
-  .cell3_in {
-    background-color: orange;
-    width: 55px;
-    height: 55px;
-    border-top-left-radius: 100px;
 
-    margin-top: 52px;
-    transform: rotate(0.85turn);
-    border: 1px solid black;
-    border-left: none;
-    border-top: none;
-  }
-  .cell3_in:nth-last-child(1) {
-    margin-top: -97px;
-    margin-left: 32px;
-    transform: rotate(0.1turn);
-  }
+  // .cell3_in {
+  //   position: absolute;
+  //   width: 230px;
+  //   height: 230px;
+  // }
+
+  // /* "рамка" */
+  // .cell3_in::before,
+  // .cell3_in::after {
+  //   content: "";
+  //   position: absolute;
+  //   inset: 0;
+  //   clip-path: polygon(50% 50%, 100% 50%, 100% 0);
+  //   border-radius: 50%;
+  //   transition: background 0.3s ease;
+  // }
+
+  // /* нижний слой — рамка */
+  // .cell3_in::before {
+  //   background: black;
+  //   z-index: 0;
+  // }
+
+  // /* верхний слой — заливка */
+  // .cell3_in::after {
+  //   background: #f0f0f3;
+  //   z-index: 1;
+  //   transform: scale(0.97);
+  //   margin-bottom: 2px;
+  //   margin-left: 6px;
+  // }
+
+  // .cell3_in:hover::after {
+  //   background: #b8b8b8;
+  //   cursor: pointer;
+  // }
 }
 
-.abobo {
-  width: 0;
-  height: 0;
-  border-left: 70px solid transparent;
-  border-right: 70px solid transparent;
-  border-top: 100px solid #32557f;
-  border-radius: 50%;
+.cell3 {
+  transition: 0.3s;
+}
+
+.cell3:hover {
+  fill: #b8b8b8;
+  cursor: pointer;
+}
+
+.cell3_in {
+  transition: 0.3s;
+}
+
+.cell3_in:hover {
+  fill: #b8b8b8;
+  cursor: pointer;
 }
 
 .tr3 {
@@ -145,6 +175,7 @@
   margin-left: -62px;
   margin-top: 50px;
   position: absolute;
+  border-right: none;
 }
 
 .br3 {
