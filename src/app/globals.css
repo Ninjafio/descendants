@@ -13,4 +13,6 @@
 body {
   background-color: #fcfcfd;
   height: 100vh;
+
+  overflow: hidden;
 }
