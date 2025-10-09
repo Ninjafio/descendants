@@ -4,16 +4,16 @@
     flex-direction: column;
     max-width: 1489px;
 
-    .conteiner__title{
+    .conteiner__title {
         font-family: 'Geist';
         font-weight: 500;
         font-size: 24px;
         line-height: 29px;
         color: #19202A;
         margin-top: 32px;
-        
+
     }
-   
+
     .conteiner__title--profile {
         font-weight: 700;
         padding-top: 42px;
@@ -52,23 +52,79 @@
 
 
     }
-    .conteiner__eby{
+
+    .conteiner__eby {
         display: flex;
         flex-direction: row;
-        
-         .eby__button{
+
+        .eby__button {
             font-size: 16px;
-        background-color: #30A46C;
-        width: 168px;
-        height: 40px;
-        cursor: pointer;
-        color: #FFFFFF;
-        border-radius: 6px;
-        border: none;
-        margin-top: 32px;
-        margin-left: auto;
+            background-color: #30A46C;
+            width: 168px;
+            height: 40px;
+            cursor: pointer;
+            color: #FFFFFF;
+            border-radius: 6px;
+            border: none;
+            margin-top: 32px;
+            margin-left: auto;
+        }
     }
+
+    .conteiner__event {
+        width: 1086px;
+        height: 542px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F0F0F3;
+        border-radius: 10px;
+        margin: 32px 0 32px 0;
+        border: 1px solid #D2DBE7;
+
+        .event__block {
+            width: 1086px;
+            min-height: 84px;
+            display: flex;
+            flex-direction: row;
+            border: 1px solid #00000017;
+            border-left: none;
+            border-right: none;
+            
+            .block__text{
+                min-height: 100px;
+                min-width: 260px;
+                display: flex;
+                flex-direction: column;
+               
+                
+                .block__item{
+                    font-size: 16px;
+                    font-weight: 400;
+                   
+                }
+                .block__item--left{
+                    font-weight: 700;
+                    margin-left: 41px;
+                  
+                }
+                .block__item--semiBold{
+                    font-weight: 600;
+                }
+               
+               .block__item--end{
+                padding-bottom: 20px;
+               }
+               .block__item--first{
+                margin-top: 20px;
+               }
+            }
+            
+        }
+        .event__block--start{
+            border-top: none;
+        }
+        .event__block--end{
+            border-bottom: none;
+        }
     }
-   
-    
 }
