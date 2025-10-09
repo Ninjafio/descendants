@@ -1,8 +1,8 @@
 .conteiner {
-    margin-left: 432px;
+    margin-left: 367px;
     display: flex;
     flex-direction: column;
-    width: 1420px;
+    max-width: 1489px;
 
     .conteiner__title {
         font-family: 'Geist';
@@ -11,7 +11,6 @@
         line-height: 29px;
         color: #19202A;
         margin-top: 32px;
-
     }
 
     .conteiner__title--profile {
@@ -22,7 +21,7 @@
     }
 
     .conteiner__line {
-        width: 1420px;
+        width: 1489px;
         height: 1px;
         background: #D2DBE7;
         margin-top: 32px;
@@ -85,23 +84,24 @@
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 32px;
+        gap: 32px;
         .gallery__block{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 255px;
-            height: 255px;
+            width: 270px;
+            height: 270px;
             background-color: #D9D9E0;
             border-radius: 10px;
-           // margin-left: 28px;
-            margin-right: 28px;
-            margin-bottom: 32px;
+            border: 1px solid #0033772B;
+            //margin-left: 28px;
             .gallery__foto{
-                width: 221px;
-                height: 180px;
+                width: 241px;
+                height: 192px;
                 background-color: #F0F0F3;
                 border-radius: 10px;
+                border: 1px solid #0033772B;
             }
             .gallery__text{
                 font-size: 14px;

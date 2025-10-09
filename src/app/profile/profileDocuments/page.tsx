@@ -1,6 +1,7 @@
 import React from 'react'
-import "./ProfileDocuments.scss"
 import SideMenu from '@/components/sideMenu/SideMenu'
+import "./profileDocuments.scss"
+
 const ProfileDocuments = () => {
   return (
     <div>
@@ -41,8 +42,6 @@ const ProfileDocuments = () => {
             <div className="gallery__foto"></div>
             <p className="gallery__text">Подпись</p>
           </div>
-         
-         
         </div>
       </div>
     </div>

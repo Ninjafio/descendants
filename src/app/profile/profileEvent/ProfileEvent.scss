@@ -1,8 +1,8 @@
 .conteiner {
-    margin-left: 432px;
+    margin-left: 367px;
     display: flex;
     flex-direction: column;
-    width: 1420px;
+    max-width: 1489px;
 
     .conteiner__title{
         font-family: 'Geist';
@@ -22,7 +22,7 @@
     }
 
     .conteiner__line {
-        width: 1420px;
+        width: 1489px;
         height: 1px;
         background: #D2DBE7;
         margin-top: 32px;
