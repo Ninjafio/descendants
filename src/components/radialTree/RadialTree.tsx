@@ -1,8 +1,12 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
+import QuarterRadialTree from "../quarterRadialTree/QuarterRadialTree";
 import "./RadialTree.scss";
 
 const RadialTree = () => {
+
+  const [desc, setDesc] = useState(["Иван", "Светлана", "Дед", "Baba", "Ded2", "Baba2"])
+
   const [scaleFactor, setScaleFactor] = useState(1);
   const [positionX, setPositionX] = useState(0);
   const [positionY, setPositionY] = useState(0);
@@ -67,7 +71,13 @@ const RadialTree = () => {
         <div className="cell1 l"></div>
         <div className="cell1 r"></div>
 
-        <div className="cell2 tl"></div>
+        <div className="temp">
+        <QuarterRadialTree layers={1}>
+
+        </QuarterRadialTree>
+        </div>
+
+        {/* <div className="cell2 tl"></div>
         <div className="cell2 tr"></div>
         <div className="cell2 bl"></div>
         <div className="cell2 br"></div>
@@ -113,7 +123,7 @@ const RadialTree = () => {
               className="cell3_in"
             />
           </svg>
-          {/* <div className="cone">
+          <div className="cone">
             <div
               className="cell3_in"
               style={{
@@ -130,7 +140,7 @@ const RadialTree = () => {
               marginLeft: "-1px",
               marginTop: "-3px",
             }}
-          ></div> */}
+          ></div> 
         </div>
         <div className="cell3 tr3">
           <svg
@@ -175,7 +185,7 @@ const RadialTree = () => {
           </svg>
         </div>
         <div className="cell3 bl3"></div>
-        <div className="cell3 br3"></div>
+        <div className="cell3 br3"></div> */}
       </div>
     </div>
   );

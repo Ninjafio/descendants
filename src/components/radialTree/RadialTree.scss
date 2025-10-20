@@ -57,100 +57,134 @@
   background-color: #b8b8b8;
 }
 
-.tl {
-  border-top-left-radius: 100%;
-  margin-top: -41px;
-  margin-left: -41px;
-  position: absolute;
-  border-bottom: none;
-}
+// .tl {
+//   border-top-left-radius: 100%;
+//   margin-top: -41px;
+//   margin-left: -41px;
+//   position: absolute;
+//   border-bottom: none;
+// }
 
-.tr {
-  border-top-right-radius: 100%;
-  margin-top: -41px;
-  margin-left: 50px;
-  position: absolute;
-  border-bottom: none;
-}
+// .tr {
+//   border-top-right-radius: 100%;
+//   margin-top: -41px;
+//   margin-left: 50px;
+//   position: absolute;
+//   border-bottom: none;
+// }
 
-.bl {
-  border-bottom-left-radius: 100%;
-  margin-bottom: -41px;
-  margin-left: -41px;
-  margin-top: 50px;
-  position: absolute;
-}
+// .bl {
+//   border-bottom-left-radius: 100%;
+//   margin-bottom: -41px;
+//   margin-left: -41px;
+//   margin-top: 50px;
+//   position: absolute;
+// }
 
-.br {
-  border-bottom-right-radius: 100%;
-  margin-bottom: -41px;
-  margin-left: 50px;
-  margin-top: 50px;
-  position: absolute;
-}
+// .br {
+//   border-bottom-right-radius: 100%;
+//   margin-bottom: -41px;
+//   margin-left: 50px;
+//   margin-top: 50px;
+//   position: absolute;
+// }
 
-.cell3 {
-  border: 1px solid black;
-  width: 110px;
-  height: 110px;
-  z-index: 97;
-  background-color: #f0f0f3;
-}
+// .cell3 {
+//   border: 1px solid black;
+//   width: 110px;
+//   height: 110px;
+//   z-index: 97;
+//   background-color: #f0f0f3;
+// }
 
-.tl3 {
-  border-top-left-radius: 100%;
-  margin-top: -62px;
-  margin-left: -62px;
-  border-bottom: none;
-  border-right: none;
-  position: absolute;
+// .tl3 {
+//   border-top-left-radius: 100%;
+//   margin-top: -62px;
+//   margin-left: -62px;
+//   border-bottom: none;
+//   border-right: none;
+//   position: absolute;
 
-  // .cell3_in {
-  //   position: absolute;
-  //   width: 230px;
-  //   height: 230px;
-  // }
+//   .cell3_in {
+//     position: absolute;
+//     width: 230px;
+//     height: 230px;
+//   }
 
-  // /* "рамка" */
-  // .cell3_in::before,
-  // .cell3_in::after {
-  //   content: "";
-  //   position: absolute;
-  //   inset: 0;
-  //   clip-path: polygon(50% 50%, 100% 50%, 100% 0);
-  //   border-radius: 50%;
-  //   transition: background 0.3s ease;
-  // }
+//   /* "рамка" */
+//   .cell3_in::before,
+//   .cell3_in::after {
+//     content: "";
+//     position: absolute;
+//     inset: 0;
+//     clip-path: polygon(50% 50%, 100% 50%, 100% 0);
+//     border-radius: 50%;
+//     transition: background 0.3s ease;
+//   }
 
-  // /* нижний слой — рамка */
-  // .cell3_in::before {
-  //   background: black;
-  //   z-index: 0;
-  // }
+//   /* нижний слой — рамка */
+//   .cell3_in::before {
+//     background: black;
+//     z-index: 0;
+//   }
 
-  // /* верхний слой — заливка */
-  // .cell3_in::after {
-  //   background: #f0f0f3;
-  //   z-index: 1;
-  //   transform: scale(0.97);
-  //   margin-bottom: 2px;
-  //   margin-left: 6px;
-  // }
+//   /* верхний слой — заливка */
+//   .cell3_in::after {
+//     background: #f0f0f3;
+//     z-index: 1;
+//     transform: scale(0.97);
+//     margin-bottom: 2px;
+//     margin-left: 6px;
+//   }
 
-  // .cell3_in:hover::after {
-  //   background: #b8b8b8;
-  //   cursor: pointer;
-  // }
-}
+//   .cell3_in:hover::after {
+//     background: #b8b8b8;
+//     cursor: pointer;
+//   }
+// }
 
-.cell3 {
-  transition: 0.3s;
-}
+// .cell3 {
+//   transition: 0.3s;
+// }
 
-.cell3:hover {
-  fill: #b8b8b8;
-  cursor: pointer;
-}
+// .cell3:hover {
+//   fill: #b8b8b8;
+//   cursor: pointer;
+// }
+
+// .cell3_in {
+//   transition: 0.3s;
+// }
+
+// .cell3_in:hover {
+//   fill: #b8b8b8;
+//   cursor: pointer;
+// }
+
+// .tr3 {
+//   border-top-right-radius: 100%;
+//   margin-top: -62px;
+//   margin-left: 50px;
+//   border-bottom: none;
+//   position: absolute;
+// }
+
+// .bl3 {
+//   border-bottom-left-radius: 100%;
+//   margin-bottom: -62px;
+//   margin-left: -62px;
+//   margin-top: 50px;
+//   position: absolute;
+//   border-right: none;
+// }
+
+// .br3 {
+//   border-bottom-right-radius: 100%;
+//   margin-bottom: -62px;
+//   margin-left: 50px;
+//   margin-top: 50px;
+//   position: absolute;
+// }
 
 .cell3_in {
   transition: 0.3s;
@@ -161,27 +195,6 @@
   cursor: pointer;
 }
 
-.tr3 {
-  border-top-right-radius: 100%;
-  margin-top: -62px;
-  margin-left: 50px;
-  border-bottom: none;
-  position: absolute;
-}
-
-.bl3 {
-  border-bottom-left-radius: 100%;
-  margin-bottom: -62px;
-  margin-left: -62px;
-  margin-top: 50px;
-  position: absolute;
-  border-right: none;
-}
-
-.br3 {
-  border-bottom-right-radius: 100%;
-  margin-bottom: -62px;
-  margin-left: 50px;
-  margin-top: 50px;
-  position: absolute;
+.temp {
+  margin-left: 250px;
 }
