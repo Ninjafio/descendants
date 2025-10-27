@@ -69,7 +69,7 @@ const theFanTree = () => {
     node.children.forEach((child: any) => {
       computePositions(child, level + 1, childXOffset);
       // Обновляем смещение для следующего ребенка
-      childXOffset += child.radius * 4; 
+      childXOffset += child.radius * 2;
     //  childYOffset += y - child.radius * 0;
     });
   };
@@ -80,6 +80,7 @@ const theFanTree = () => {
       {levels.map((level: any, index: any) => (
         level.map((member: any) => (
           <div
+            className='call'
             key={member.name}
             style={{
               position: 'absolute',

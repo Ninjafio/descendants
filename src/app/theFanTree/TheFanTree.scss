@@ -47,7 +47,13 @@
     margin-top: 100px;
 }
 
+.call:nth-child(1) {
+    margin-left: -70px;
+}
 
+.call:nth-child(2n) {
+    margin-left: -115px;
+}
 
 
 
